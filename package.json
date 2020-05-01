@@ -23,7 +23,8 @@
     "watch-test": "mocha --compilers ts:ts-node/register --recursive ./test/**/*-test.[tj]s --watch",
     "autorest": "gulp autorest",
     "clean": "gulp clean",
-    "prepublish": "gulp prepublish"
+    "prepublish": "npm run snyk-protect && gulp prepublish",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -66,6 +67,8 @@
     "rx": "^4.1.0",
     "temp": "^0.8.3",
     "uuid": "^3.0.1",
-    "wordwrap": "^1.0.0"
-  }
+    "wordwrap": "^1.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
