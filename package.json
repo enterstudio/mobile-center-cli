@@ -52,7 +52,7 @@
     "adm-zip": "^0.4.7",
     "cli-spinner": "^0.2.5",
     "cli-table2": "^0.2.0",
-    "debug": "^2.2.0",
+    "debug": "^3.1.0",
     "event-stream": "^3.3.4",
     "glob": "^7.1.1",
     "inquirer": "^1.1.3",
